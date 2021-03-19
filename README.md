@@ -21,7 +21,11 @@ $ source venv/bin/activate
 --------------
 
 - update database
-``` (venv)$ python main.py ```
+```sh
+(venv)$ python main.py
+```
 
 - export in csvfile
-``` (venv)$ python ./utils/export.py dt="law" since=01/11/1997 to="01/12/1998" out="../data/myfile.csv" ```
+```sh
+(venv)$ python ./utils/export.py dt="law" since=01/11/1997 to="01/12/1998" out="../data/myfile.csv"
+```
