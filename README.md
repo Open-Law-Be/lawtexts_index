@@ -9,12 +9,12 @@ and expose it in open format.
 
 # How to install ?
 ------------------
-```
+```sh
 $ git clone https://github.com/Open-Law-Be/lawtexts_listing.git
-$ python -m virtualenv lawtexts_listing/venv # python == python3
+$ python -m virtualenv lawtexts_listing/venv
 $ cd lawtexts_listing
 $ source venv/bin/activate
-(venv) $ pip install requirements.txt # pip  == pip3
+(venv) $ pip install requirements.txt
 ```
 
 # How to use ?
@@ -22,10 +22,10 @@ $ source venv/bin/activate
 
 - update database
 ```sh
-(venv)$ python main.py
+(venv)$ python ./ll.py update
 ```
 
 - export in csvfile
 ```sh
-(venv)$ python ./utils/export.py dt="law" since=01/11/1997 to="01/12/1998" out="../data/myfile.csv"
+(venv)$ python ./ll.py export dt="law" since=01/11/1997 to="01/12/1998" out="../data/myfile.csv"
 ```
