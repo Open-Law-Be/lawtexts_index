@@ -1,11 +1,14 @@
 # ll - lawtexts listing
 ------------------
 
-## What is ll ?
+### Warning
+Unstable stuff, work in progress. Don't use if you don't know what you do !
+
+### What is ll ?
 **ll** is an simple web scrapper who extract data from ejustice.just.fgov.be
 and expose it in open format.
 
-## How to install ?
+### How to install ?
 ```sh
 $ git clone https://github.com/Open-Law-Be/lawtexts_listing.git
 $ python -m virtualenv lawtexts_listing/venv
@@ -14,7 +17,7 @@ $ source venv/bin/activate
 (venv) $ pip install requirements.txt
 ```
 
-## How to use ?
+### How to use ?
 - update database
 ```sh
 (venv)$ python ./ll.py update
